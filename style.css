@@ -629,15 +629,13 @@ h4,
 h5,
 h6,
 label,
-.btn,
+.btn,p,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
-p.text-center.black {
-    color: black;
-}
+
 .container {
     max-width: 1000px;
 }
@@ -661,7 +659,7 @@ p.text-center.black {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -719,7 +717,9 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+.black {
+    color: #000!important;
+}
 .white {
     color: #fff!important;
 }
